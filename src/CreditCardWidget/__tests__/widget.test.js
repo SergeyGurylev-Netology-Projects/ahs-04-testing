@@ -1,5 +1,4 @@
 import CardWidget from '../CardWidget';
-import { getValidCard, isCardNumberValid } from '../validators';
 
 test('render widget', () => {
   document.body.innerHTML = '<div class="card-number"></div>';
