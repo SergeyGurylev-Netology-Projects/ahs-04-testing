@@ -1,0 +1,88 @@
+.card-number .card.visa {
+    background-image: url(../img/card-visa.gif);
+}
+
+.card-number .card.master {
+    background-image: url(../img/card-mastercard.gif);
+}
+.card-number .card.visa {
+    background-image: url(../img/card-visa.gif);
+}
+.card-number .card.amex {
+    background-image: url(../img/card-amex.gif);
+}
+.card-number .card.discover {
+    background-image: url(../img/card-discover.gif);
+}
+
+.card-number .card.jcb {
+    background-image: url(../img/card-jcb.gif);
+}
+
+.card-number .card.diners_club {
+    background-image: url(../img/card-diners.gif);
+}
+
+.card-number .card.mir {
+    background-image: url(../img/card-diners.gif);
+}
+
+.card-number .card.cdisabled {
+    background-position: 0 -25px;
+    opacity: .3;
+}
+
+.card-number .card {
+    float: left;
+    width: 39px;
+    height: 25px;
+    text-indent: -9999px;
+    background-position: 0 0;
+    margin-right: 4px;
+}
+
+.card-number li {
+    display: inline;
+    margin-right: 4px;
+}
+
+.card-number ul {
+    list-style: none;
+    padding: 0;
+}
+
+.card-number .card-number-control.invalid {
+    background-color: orange;
+}
+
+.card-number .card-number-control.valid {
+    background-color: rgba(0, 128, 36, 0.38);
+}
+
+.card-number .card-number-control {
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.card-number .card-number-btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: #5cb85c;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+}

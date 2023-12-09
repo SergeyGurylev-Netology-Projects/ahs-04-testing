@@ -1,0 +1,26 @@
+const paySystems = {
+  2: 'mir',
+  30: 'diners_club',
+  36: 'diners_club',
+  38: 'diners_club',
+  31: 'jcb',
+  35: 'jcb',
+  34: 'amex',
+  37: 'amex',
+  4: 'visa',
+  50: 'master',
+  56: 'master',
+  57: 'master',
+  58: 'master',
+  51: 'master',
+  52: 'master',
+  53: 'master',
+  54: 'master',
+  55: 'master',
+  60: 'discover',
+  62: 'discover',
+  63: 'discover',
+  67: 'discover',
+};
+
+export default paySystems;
