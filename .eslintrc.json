@@ -17,6 +17,7 @@
         "object-shorthand": "off",
         "no-restricted-syntax": "off",
         "max-len": "warn",
+        "eqeqeq": "off",
         "lines-between-class-members": [
             "error",
             {
